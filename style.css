@@ -1,0 +1,159 @@
+*,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    height: max-content;
+}
+
+#logo {
+    width: 250px;
+    height: 200px;
+}
+
+#top-nav {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+#top-nav li {
+    display: inline;
+    margin: auto;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+#top-nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+#top-nav li a:hover {
+    color: black;
+    opacity: 0.7;
+}
+
+#slogan {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.3rem;
+    margin-top: 6.4rem;
+    color: #444444;
+    background: #FFFFFF;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    color: #444444;
+    background: #FFFFFF;
+}
+
+#alinti {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 3.7rem;
+    font-size: 2rem;
+    text-shadow: #474747 3px 5px 2px;
+}
+
+#slider-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+    background-color: #000;
+}
+
+#slider-img {
+    width: 90%;
+    position: relative;
+    margin: auto;
+    height: 600px;
+}
+
+main {
+    width: 100%;
+    text-align: center;
+}
+
+.blog-post {
+    position: relative;
+    margin: auto;
+    height: 350px;
+    border: #5e5e5e 1px solid;
+    width: 60%;
+    margin-bottom: 1.7rem;
+    margin-top: 2rem;
+}
+
+.post-img {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.post-header {
+    font-size: 2.5rem;
+    margin-top: 2.9rem;
+}
+
+.post-text {
+    margin-top: 2.2rem;
+    font-size: larger;
+    text-align: left;
+    line-height: 1.7rem;
+}
+
+.read-more {
+    position: relative;
+    margin-top: 7.5rem;
+    margin-left: 28rem;
+    padding: 13px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: .9rem;
+    transition: all .5s;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.read-more:hover {
+    background-color: lightblue;
+    box-shadow: 1px 1px 1px 1px black, 0 0 5px gray;
+}
+
+#location {
+    position: relative;
+}
+
+.footer {
+    height: 300px;
+    text-align: center;
+    background-color: #000;
+    color: white;
+}
+
+.footer #email-contact {
+    text-decoration: none;
+    color: white;
+    margin-top: 2rem;
+    padding: 6px;
+    transition: all .3s;
+    display: inline-block;
+}
+
+.footer #email-contact:hover {
+    box-shadow: 1px 1px 0px 1px lightcyan, 0 0 6px white;
+}
+
+#copyright {
+    margin-top: 130px;
+}
